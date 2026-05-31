@@ -1,0 +1,23 @@
+### Get All Departments
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Departments
+
+### Get All Students
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Students
+
+### Students with CGPA > 8
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Students?$filter=cgpa gt 8
+
+### Courses in CSE Department
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Courses?$filter=departmentCode eq 'CSE'
+
+### Courses in Semester 3
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Courses?$filter=semester eq 3
+
+### Available Courses
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Courses?$filter=currentEnrolled lt maxStudents
+
+### Enrollments
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Enrollments
+
+### Exams
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/University/Exams

@@ -1,0 +1,29 @@
+### Get All Vehicles
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Vehicles
+
+### Available Vehicles
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Vehicles?$filter=status eq 'Available'
+
+### All Drivers
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Drivers
+
+### Drivers by Rating
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Drivers?$orderby=rating desc
+
+### All Customers
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Customers
+
+### All Shipments
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Shipments
+
+### In Transit Shipments
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Shipments?$filter=status eq 'InTransit'
+
+### Delivered Shipments
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Shipments?$filter=status eq 'Delivered'
+
+### All Routes
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/Routes
+
+### Service Records
+GET http://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/Logistics/ServiceRecords

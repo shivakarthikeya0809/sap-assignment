@@ -1,0 +1,9 @@
+GET https://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiology'
+
+###
+
+GET https://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/hospital/Appointments?$filter=appointmentDate eq 2026-06-02
+
+###
+
+GET https://port4004-workspaces-ws-76zvt.ap21.trial.applicationstudio.cloud.sap/odata/v4/hospital/Patients?$filter=bloodGroup eq 'A_POS'

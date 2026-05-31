@@ -1,0 +1,9 @@
+ID,patient_ID,doctor_ID,appointmentDate,appointmentTime,status,reason,notes,fee
+k1,p1,a1,2026-06-02,10:00:00,Scheduled,Chest Pain,Initial Checkup,500
+k2,p2,a2,2026-06-01,11:00:00,Scheduled,Headache,Neurology Consultation,600
+k3,p3,a3,2026-06-11,09:00:00,Completed,Knee Pain,Follow Up,700
+k4,p4,a4,2026-06-07,12:00:00,Scheduled,Fever,General Checkup,400
+k5,p5,b1,2026-06-03,10:30:00,Scheduled,Heart Checkup,Routine Visit,800
+k6,p6,b2,2026-06-07,02:00:00,Cancelled,Migraine,Cancelled by Patient,650
+k8,p7,a2,2026-06-04,11:30:00,Scheduled,Back Pain,Consultation,700
+k9,p8,a4,2026-06-04,03:00:00,NoShow,Child Checkup,Patient Absent,400
